@@ -17,7 +17,8 @@ In this project we're seeking to make automatic testing with different scenarios
 
 </br>
 
-```bash npm i
+```bash 
+npm i
 ```
 </br>
 
