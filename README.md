@@ -11,7 +11,7 @@ In this project we're seeking to make automatic testing with different scenarios
 <ul>
     <li>@cucumber/cucumber</li>
     <li>chai</li>
-    <li>cucumber-html-reporter</li>
+    <li>cmultiple-cucumber-html-reporter</li>
     <li>axios</li>
 </ul>
 
