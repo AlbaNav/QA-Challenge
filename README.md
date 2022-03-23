@@ -48,19 +48,22 @@ npm run test
 
 </br>
 
-```bash node index.js
+```bash
+ node index.js
 ```
 </br>
 <p> The report is created in HTML format in this path </p>
 </br>
 
-```bash test-reports\report\index.html
+```bash
+ test-reports\report\index.html
 ```
 </br>
 <p> You can also check a single report in this path: </p>
 </br>
 
-```bash test-reports\report\features
+```bash
+ test-reports\report\features
 ```
 </br>
 
