@@ -9,18 +9,13 @@
   },
   "author": "AlbaNav",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {    
+    "axios": "^0.26.1"  
+  },
+    "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.19.0",
     "@cucumber/cucumber": "^7.3.2",
-    "axios": "^0.26.1",
     "chai": "^4.3.6",
     "selenium-webdriver": "^4.1.1"
-  },
-  "webdriver": [
-    "last 1 chrome version",
-    "last 1 firefox version",
-    "last 1 safari version"
-  ],
-  "devDependencies": {
-    "multiple-cucumber-html-reporter": "^1.19.0"
   }
 }

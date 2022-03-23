@@ -11,12 +11,15 @@
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "Given ",
             "line": 4,
-            "name": "We open the browser go to trello API and make a request to GET the boards information",
+            "name": "Registered user exist and has a board",
+            "match": {
+              "location": "steps/features/getTest.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1125000000
             }
           }
         ],
@@ -43,12 +46,28 @@
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "Given ",
             "line": 4,
-            "name": "We open the browser go to trello API and want to POST a board named AlbaNavQA",
+            "name": "Registered user exist and whants to post a board",
+            "match": {
+              "location": "steps/features/postTest.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "We open the browser go to trello API and want to POST a board named AlbaNavQA",
+            "match": {
+              "location": "steps/features/postTest.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621000000
             }
           }
         ],

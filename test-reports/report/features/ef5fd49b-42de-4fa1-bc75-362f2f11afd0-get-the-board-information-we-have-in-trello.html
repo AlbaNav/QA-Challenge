@@ -520,14 +520,14 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
                 
             </div>
             <h1>Feature:
-                <small>Post new board in my trello account</small>
+                <small>Get the board information we have in Trello</small>
             </h1>
             <p>
            <p><strong>File name:</strong>
-                postTest.feature
+                getTest.feature
             </p>
             <p><strong>Relative path:</strong>
-                features/postTest.feature</p>
+                features/getTest.feature</p>
         </div>
 
         <div class="clearfix"></div>
@@ -575,7 +575,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">0.00 %</td>
+                        <td class="percentage">100.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -586,16 +586,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
                         </td>
                         <td class="percentage">0.00 %</td>
                     
-                    
-                    <tr>
-                        <td>
-                            <p data-toggle="tooltip" data-placement="left" title="Scenario has no step implmentation.">
-                                <i class="fa fa-question-circle not-defined-color"></i>
-                                Not defined
-                            </p>
-                        </td>
-                        <td class="percentage">100.00 %</td>
-                    </tr>
                     
                     </tr>
                     
@@ -741,11 +731,11 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
                     
 
                     
-
-                    
                         <li>
-                            <span class="step not-defined-background" data-toggle="tooltip" title="Scenario has nop step implementation.">1</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">1</span>
                         </li>
+                    
+
                     
 
                     
@@ -762,17 +752,17 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step has no implementation.">
-                                            <i class="fa fa-question-circle fa-2x not-defined-color"></i>
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
                                         </div>
                                     
                                 
 
                                 <div class="text">
-                                    <span class="keyword highlight">When </span>
+                                    <span class="keyword highlight">Given </span>
 
                                     
-                                        We open the browser go to trello API and want to POST a board named AlbaNavQA
+                                        Registered user exist and has a board
                                         
                                     
 
@@ -781,20 +771,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
                                 </div>
 
                                 
-                                    
-                                        <pre class="info">
-// With Callbacks
-When (/^We open the browser go to trello API and want to POST a board named AlbaNavQA$/, (callback) => {
-    // Write code here that turns the phrase above into concrete actions
-    callback(null, 'pending');
-});
-
-// With Promises
-When (/^We open the browser go to trello API and want to POST a board named AlbaNavQA$/, () => {
-    // Write code here that turns the phrase above into concrete actions
-    return Promise.resolve('pending');
-});
-                                        </pre>
                                     
 
                                     
@@ -878,12 +854,12 @@ When (/^We open the browser go to trello API and want to POST a board named Alba
                     ],
                     datasets: [{
                         data: [
+                            1,
                             0,
                             0,
                             0,
                             0,
-                            0,
-                            1
+                            0
                         ],
                         backgroundColor: [
                             "#26B99A",
