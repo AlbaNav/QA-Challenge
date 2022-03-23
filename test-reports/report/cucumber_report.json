@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-the-board-information-we-have-in-trello;trello-api",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Trello API",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "We open the browser go to trello API and make a request to GET the boards information",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-the-board-information-we-have-in-trello",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Get the board information we have in Trello",
+    "tags": [],
+    "uri": "steps/features/getTest.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "post-new-board-in-my-trello-account;trello-api",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Trello API",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "We open the browser go to trello API and want to POST a board named AlbaNavQA",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "post-new-board-in-my-trello-account",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Post new board in my trello account",
+    "tags": [],
+    "uri": "steps/features/postTest.feature"
+  }
+]

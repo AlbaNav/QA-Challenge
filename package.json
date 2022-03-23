@@ -4,7 +4,8 @@
   "description": "AlvaNav QA Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js steps",
+    "test-report": "cucumber-js steps --format json:test-reports/report/cucumber_report.json"
   },
   "author": "AlbaNav",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "last 1 chrome version",
     "last 1 firefox version",
     "last 1 safari version"
-  ]
+  ],
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  }
 }
