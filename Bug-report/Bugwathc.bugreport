@@ -1,0 +1,33 @@
+https://app.birdeatsbug.com/sessions/BnD4mBz9caeIhyRYzYCfQzEFlr0Ib_u5fxdbrBIz0cg1
+
+
+Resulting and expected behaviour:
+
+Vercell app does not compile.
+
+system information:
+
+Session
+Start:	24 Mar 22, 0:59pm
+From:	rick-morty-bay.vercel.app
+Duration:	13 sec
+Reporter:	Alba Navarro
+System
+Platform:	Linux
+Browser:	Chrome 99.0.4844.74
+Engine:	Blink
+Screen:	1920 x 1080
+Window:	1920 x 938
+Type:	Desktop
+Vendor:	
+Locale:	es-ES
+Timezone:	Europe / Madrid
+Bird:	v1.41.0
+
+User ID :
+AlbaNav
+
+Impact:
+
+If this app does not compile we'll not be able to share it. 
+
